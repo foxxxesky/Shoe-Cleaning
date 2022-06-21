@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Londrina+Solid&display=swap");
+
+:root {
+  /* Color */
+  --primary: #8f5bd8;
+  --white: #ffffff;
+  --primary-text: #504a4a;
+  --warning: #ffc107;
+
+  /* Font-Weight */
+  --medium: 500;
+  --semi-bold: 600;
+  --bold: 700;
+}
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+.navbarr {
+  background-color: var(--primary);
+}
+
+.nav_header {
+  font-family: "Londrina Solid", cursive;
+  font-size: 28px;
+  text-decoration: none;
+}
+
+#nav_text {
+  font-weight: var(--semi-bold);
+  font-size: 18px;
+}
+
+#login-button {
+  color: var(--primary);
+  font-weight: var(--semi-bold);
+  font-size: 18px;
+}
