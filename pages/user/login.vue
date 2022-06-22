@@ -4,7 +4,7 @@
       <div class="col-9 pt-5">
         <h4 id="text-masuk" class="pb-4">Masuk</h4>
         <!-- Form Masuk -->
-        <form action="" method="POST">
+        <form action="#" method="POST">
           <div class="form">
             <!-- Email -->
             <div class="mb-4">
@@ -25,7 +25,7 @@
             <!-- Button -->
             <div class="mb-4">
               <button
-                id="login-button"
+                id="login-button-login"
                 type="submit"
                 name="Masuk"
                 class="btn btn-primary"

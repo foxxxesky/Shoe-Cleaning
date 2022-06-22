@@ -8,7 +8,7 @@
 <script>
 import Auth from "~/components/user/Auth.vue";
 export default {
-  name: "login",
+  name: "auth",
   components: { Auth },
 };
 </script>

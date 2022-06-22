@@ -6,6 +6,9 @@
   --primary: #8f5bd8;
   --white: #ffffff;
   --primary-text: #504a4a;
+  --secondary-text: #a5a5a5;
+  --slip-color1: #98cdc8;
+  --slip-color2: #4461f2;
   --warning: #ffc107;
 
   /* Font-Weight */
@@ -35,7 +38,7 @@
 }
 
 #login-button {
-  color: var(--white);
+  color: var(--primary);
   font-weight: var(--semi-bold);
   font-size: 18px;
 }
@@ -64,12 +67,12 @@ body {
 
 #text-kiri {
   font-size: 24px;
-  font-weight: 600;
-  color: #504a4a;
+  font-weight: var(--semi-bold);
+  color: var(--primary-text);
 }
 
 #slip-color {
-  color: #98cdc8;
+  color: var(--slip-color1);
 }
 
 /* Konten Kiri */
@@ -79,45 +82,46 @@ body {
 #text-registrasi,
 #text-masuk {
   font-size: 36px;
-  font-weight: 700;
-  color: #504a4a;
+  font-weight: var(--bold);
+  color: var(--primary-text);
 }
 
 #form-text {
   font-size: 18px;
-  color: #504a4a;
+  color: var(--primary-text);
 }
 
 #checkbox-text {
   font-size: 11px;
-  color: #504a4a;
+  color: var(--primary-text);
 }
 
 #checkbox-text {
   font-size: 14px;
-  font-weight: 500;
-  color: #a5a5a5;
+  font-weight: var(--medium);
+  color: var(--secondary-text);
 }
 
 #checkbox-text-login {
   font-size: 14px;
-  font-weight: 500;
-  color: #504a4a;
+  font-weight: var(--medium);
+  color: var(--primary-text);
 }
 
 #slip-color2 {
-  color: #4461f2;
+  color: var(--slip-color2);
 }
 
-#register-button-text {
+#register-button {
   font-size: 20px;
-  font-weight: 600;
+  font-weight: var(--semi-bold);
 }
 
-#login-button {
+#login-button-login {
+  color: var(--white);
   width: 100%;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: var(--semi-bold);
 }
 
 #link-text-login,
@@ -135,13 +139,13 @@ body {
 
 /* Footer */
 #footer {
-  background: #8f5bd8;
+  background: var(--primary);
 }
 
 #shoecleaning-footer {
   font-family: "Londrina Solid", cursive;
   font-size: 18px;
-  color: #ffffff;
+  color: var(--white);
 }
 
 #desc-col1 {
@@ -151,11 +155,11 @@ body {
 #footer-text {
   font-size: 18px;
   font-weight: 700;
-  color: #ffffff;
+  color: var(--white);
 }
 
 #desc-col1 {
   font-size: 14px;
-  color: #ffffff;
+  color: var(--white);
 }
 /* Footer */
