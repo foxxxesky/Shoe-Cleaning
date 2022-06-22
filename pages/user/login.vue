@@ -50,5 +50,10 @@
 <script>
 export default {
   layout: "auth",
+  head() {
+    return {
+      title: "Login",
+    };
+  },
 };
 </script>
