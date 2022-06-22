@@ -25,7 +25,7 @@
             <!-- Button -->
             <div class="mb-4">
               <button
-                id="login-button-login"
+                id="login-button"
                 type="submit"
                 name="Masuk"
                 class="btn btn-primary"
@@ -57,3 +57,29 @@ export default {
   },
 };
 </script>
+
+<style>
+#text-masuk {
+  font-size: 36px;
+  font-weight: var(--bold);
+  color: var(--primary-text);
+}
+
+#form-text {
+  font-size: 18px;
+  color: var(--primary-text);
+}
+
+#login-button {
+  color: var(--white);
+  width: 100%;
+  font-size: 20px;
+  font-weight: var(--semi-bold);
+}
+
+#link-text-register {
+  font-size: 14px;
+  font-weight: var(--medium);
+  color: var(--primary-text);
+}
+</style>

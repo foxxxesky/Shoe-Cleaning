@@ -35,3 +35,32 @@
     </footer>
   </section>
 </template>
+
+<style>
+/* Footer */
+#footer {
+  background: var(--primary);
+}
+
+#shoecleaning-footer {
+  font-family: "Londrina Solid", cursive;
+  font-size: 18px;
+  color: var(--white);
+}
+
+#desc-col1 {
+  font-size: 17px;
+}
+
+#footer-text {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--white);
+}
+
+#desc-col1 {
+  font-size: 14px;
+  color: var(--white);
+}
+/* Footer */
+</style>

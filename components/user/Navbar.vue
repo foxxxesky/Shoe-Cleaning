@@ -47,3 +47,50 @@
     </div>
   </nav>
 </template>
+
+<style>
+/* navbar */
+.navbarr {
+  background-color: var(--primary);
+}
+
+#nav_header {
+  font-family: "Londrina Solid", cursive;
+  font-size: 28px;
+  text-decoration: none;
+}
+
+#nav_text {
+  font-weight: var(--semi-bold);
+  font-size: 18px;
+}
+
+#login-button {
+  color: var(--primary);
+  font-weight: var(--semi-bold);
+  font-size: 18px;
+}
+/* navbar */
+
+/* Konten Kiri */
+#grid-left {
+  height: 100%;
+  background-color: var(--primary);
+}
+
+#grid-right {
+  height: 100%;
+}
+
+#text-kiri {
+  font-size: 24px;
+  font-weight: var(--semi-bold);
+  color: var(--primary-text);
+}
+
+#slip-color {
+  color: var(--slip-color1);
+}
+
+/* Konten Kiri */
+</style>

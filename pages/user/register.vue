@@ -136,3 +136,43 @@ export default {
   },
 };
 </script>
+
+<style>
+#text-registrasi {
+  font-size: 36px;
+  font-weight: var(--bold);
+  color: var(--primary-text);
+}
+
+#checkbox-text {
+  font-size: 11px;
+  color: var(--primary-text);
+}
+
+#checkbox-text {
+  font-size: 14px;
+  font-weight: var(--medium);
+  color: var(--secondary-text);
+}
+
+#checkbox-text-login {
+  font-size: 14px;
+  font-weight: var(--medium);
+  color: var(--primary-text);
+}
+
+#slip-color2 {
+  color: var(--slip-color2);
+}
+
+#register-button {
+  font-size: 20px;
+  font-weight: var(--semi-bold);
+}
+
+#link-text-login {
+  font-size: 14px;
+  font-weight: var(--medium);
+  color: var(--primary-text);
+}
+</style>
