@@ -1,14 +1,14 @@
 <template>
   <div class="grid-container">
-    <Login_regist />
+    <Auth />
     <Nuxt />
   </div>
 </template>
 
 <script>
-import Login_regist from "~/components/user/login_regist.vue";
+import Auth from "~/components/user/Auth.vue";
 export default {
   name: "login",
-  components: { Login_regist },
+  components: { Auth },
 };
 </script>

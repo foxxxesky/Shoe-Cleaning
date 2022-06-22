@@ -1,6 +1,6 @@
 <template>
   <!-- Split -->
-  <section id="grid-left" style="background-color: #8f5bd8">
+  <section id="grid-left">
     <div class="row justify-content-center pb-5">
       <div class="col-9 pt-5">
         <h5 id="text-kiri" class="text-light">
@@ -9,7 +9,14 @@
           <span id="slip-color">cepat!</span>
         </h5>
       </div>
-      <img id="img-kiri" src="images/char.png" alt="" />
+      <img
+        id="img-kiri"
+        src="~static/images/bigchar.png"
+        alt=""
+        class="img-fluid"
+      />
     </div>
   </section>
 </template>
+
+<script></script>

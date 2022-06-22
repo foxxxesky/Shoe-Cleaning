@@ -35,7 +35,7 @@
 }
 
 #login-button {
-  color: var(--primary);
+  color: var(--white);
   font-weight: var(--semi-bold);
   font-size: 18px;
 }
@@ -44,15 +44,23 @@
 body {
   height: 100%;
   overflow-x: hidden;
-  background-color: #f8f5fd;
 }
 
 .grid-container {
+  height: 100%;
   display: grid;
   grid-template-columns: 50% 50%;
 }
 
 /* Konten Kiri */
+#grid-left {
+  height: 100%;
+  background-color: var(--primary);
+}
+
+#grid-right {
+  height: 100%;
+}
 
 #text-kiri {
   font-size: 24px;
@@ -62,11 +70,6 @@ body {
 
 #slip-color {
   color: #98cdc8;
-}
-
-#img-kiri {
-  width: 721px;
-  height: 630px;
 }
 
 /* Konten Kiri */
@@ -120,8 +123,8 @@ body {
 #link-text-login,
 #link-text-register {
   font-size: 14px;
-  font-weight: 500;
-  color: #504a4a;
+  font-weight: var(--medium);
+  color: var(--primary-text);
 }
 
 #link-page {

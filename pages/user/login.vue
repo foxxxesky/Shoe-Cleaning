@@ -37,7 +37,8 @@
         </form>
         <div class="mb-4">
           <p id="link-text-register" class="text-center">
-            Belum punya akun? <a id="link-page" href="/Register">Daftar</a>
+            Belum punya akun?
+            <nuxt-link id="link-page" to="/user/register">Daftar</nuxt-link>
           </p>
         </div>
       </div>
@@ -48,6 +49,6 @@
 
 <script>
 export default {
-  layout: "login_regist",
+  layout: "auth",
 };
 </script>
