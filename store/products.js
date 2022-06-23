@@ -28,7 +28,7 @@ export const products = [
     title: "Weekend Clean",
     price: 50000,
     desc: "Perhatian cermat terhadap detail, deep clean, sol dalam, sol dalam, pelapis, pewangi.",
-    big_img: "big_weeknend_clean.png",
+    big_img: "big_weekend_clean.png",
     small_img: "weekend_clean.png",
   },
 ];
