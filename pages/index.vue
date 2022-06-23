@@ -40,15 +40,36 @@
       bertambah... <br />
       Berikut jasa yang kami tawarkan
     </p>
+
+    <div class="container pb-5">
+      <div class="row">
+        <div class="col-3" v-for="product in service" :key="service.id">
+          <img
+            :src="require(`~/static/images/${product.small_img}`)"
+            id="img_layanan"
+            alt="img"
+          />
+          <h5 class="pt-3 text-center" id="item-layanan">
+            {{ product.title }}
+          </h5>
+        </div>
+      </div>
+    </div>
     <!-- Layanan -->
   </div>
 </template>
 
 <script>
+import { products } from "@/store/products.js";
 export default {
   head() {
     return {
       title: "Shoe Cleaning",
+    };
+  },
+  data() {
+    return {
+      service: products,
     };
   },
 };
@@ -104,6 +125,10 @@ hr {
 #desc-layanan {
   font-size: 16px;
   color: #504a4a;
+}
+
+#img_layanan {
+  height: 263px;
 }
 /* Layanan */
 </style>
