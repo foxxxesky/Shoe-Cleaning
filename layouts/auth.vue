@@ -10,6 +10,11 @@ import Auth from "~/components/user/Auth.vue";
 export default {
   name: "auth",
   components: { Auth },
+  head() {
+    return {
+      link: [{ rel: "icon", href: "../images/char.png" }],
+    };
+  },
 };
 </script>
 

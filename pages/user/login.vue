@@ -53,6 +53,11 @@ export default {
   head() {
     return {
       title: "Login",
+      head() {
+        return {
+          link: [{ rel: "icon", href: "images/char.png" }],
+        };
+      },
     };
   },
 };

@@ -12,16 +12,6 @@ import Footer from "~/components/user/Footer.vue";
 export default {
   name: "default",
   components: { Navbar, Footer },
-  head() {
-    return {
-      link: [
-        {
-          rel: "icon",
-          href: "~/static/images/char.png",
-        },
-      ],
-    };
-  },
 };
 </script>
 
