@@ -118,17 +118,23 @@ hr {
 /* Layanan */
 #text-layanankami {
   font-size: 36px;
-  font-weight: 700;
-  color: #504a4a;
+  font-weight: var(--bold);
+  color: var(--primary-text);
 }
 
 #desc-layanan {
   font-size: 16px;
-  color: #504a4a;
+  color: var(--primary-text);
 }
 
 #img_layanan {
   height: 263px;
+}
+
+#item-layanan {
+  font-size: 24px;
+  font-weight: var(--semi-bold);
+  color: var(--primary-text);
 }
 /* Layanan */
 </style>
