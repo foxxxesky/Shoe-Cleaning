@@ -23,7 +23,10 @@
             >
           </li>
           <li class="nav-item">
-            <nuxt-link class="nav-link pe-lg-5 text-light" id="nav_text" to="#"
+            <nuxt-link
+              class="nav-link pe-lg-5 text-light"
+              id="nav_text"
+              to="user/service"
               >SERVICES</nuxt-link
             >
           </li>
